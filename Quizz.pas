@@ -1,5 +1,5 @@
 
-// Quizz desenvolvido em 201
+// Quizz desenvolvido em 2017
 
 Program Pzim ;
 Procedure resete;
