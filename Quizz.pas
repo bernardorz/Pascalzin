@@ -1,3 +1,6 @@
+
+// Quizz desenvolvido em 201
+
 Program Pzim ;
 Procedure resete;
 Begin
@@ -31,17 +34,17 @@ Begin
             	   For L := 1 to 50000 do;
               End;
 		   clrscr;
-      //================================================================================== tela de apresentaçao
+      //================================================================================== tela de apresentaÃ§ao
        gotoxy (40,1);  Textcolor (yellow); WriteLn ('DESENVOLVEDOR');
        gotoxy (33,2);  WriteLn ('Bernardo Rizzatti .');
        gotoxy (30,5);  Textcolor (yellow); WriteLn ('Jogo --> Este jogo se trata de um quizz.');
        gotoxy (30,6);  WriteLn ('Este quizz testara seu conhecimento na lingua Portuguesa !');
        gotoxy (30,7);  WriteLn ('Cada pergunta tem 5 alternativas , com apenas uma correta !');
        gotoxy (40,9);  WriteLn ('Lingua Portuguesa');
-       gotoxy (30,11); WriteLn ('O Português é uma língua originada no galego-português');
+       gotoxy (30,11); WriteLn ('O PortuguÃªs Ã© uma lÃ­ngua originada no galego-portuguÃªs');
        gotoxy (29,12); WriteLn ('idioma falado no Reino da Galiza e no norte de Portugal');
-	     gotoxy (29,13); WriteLn ('No período das Grandes Navegações, a língua foi difundida nas terra');
-       gotoxy (29,14); WriteLn ('conquistadas, como Brasil, África e outras partes do mundo.');
+	     gotoxy (29,13); WriteLn ('No perÃ­odo das Grandes NavegaÃ§Ãµes, a lÃ­ngua foi difundida nas terra');
+       gotoxy (29,14); WriteLn ('conquistadas, como Brasil, Ãfrica e outras partes do mundo.');
        gotoxy (50,16); Writeln ('Pressione Qualquer tecla para iniciar o quizz !');
        readkey;
        gotoxy(30,17); textcolor(yellow); WriteLn('LOADING .. ');
@@ -95,15 +98,15 @@ sexor :gotoxy (20,11); WriteLn ('Escolha a opcao -> [ ]');
 	  	//====================================================================== pergunta 1
 	     gotoxy (3,10); textcolor(yellow); writeln('Boa sorte ',nome);
        gotoxy (3,11); WriteLn ('Responda as questoes a seguir ->');
-       gotoxy (2,14); WriteLn ('QUESTÃO 1 --> ');
-       gotoxy (2,16); WriteLn ('1 - Em relação as figuras de linguagem. Marque a alternativa que indica uma hipérbole : ');
-       gotoxy (2,17); WriteLn (' A : Na lama lisa da margem, borboletas amarelas pousavam, imóveis, como pétalas num chão de festa.');
+       gotoxy (2,14); WriteLn ('QUESTÃƒO 1 --> ');
+       gotoxy (2,16); WriteLn ('1 - Em relaÃ§Ã£o as figuras de linguagem. Marque a alternativa que indica uma hipÃ©rbole : ');
+       gotoxy (2,17); WriteLn (' A : Na lama lisa da margem, borboletas amarelas pousavam, imÃ³veis, como pÃ©talas num chÃ£o de festa.');
        gotoxy (2,18); WriteLn (' B : Estou com fome, acho que comeria um cavalo '); 
 		   gotoxy (2,19); WriteLn (' C : A incerteza de tudo, na certeza de nada. ');    
-		   gotoxy (2,20); WriteLn (' D : Como dizia o pai de um filho burro:"Às vezes tenho que concordar em que meu filho não'); 
-		   gotoxy (2,21); WriteLn ('atingiu o índice normal de aproveitamento para meninos de sua idade".');    
-		   gotoxy (2,22); WriteLn (' E : Algumas araras azuis, do alto de uma árvore, trocavam opiniões sobre o amanhecer.');
-		   gotoxy (2,23); WriteLn ('Opção escolhida -> [ ]');
+		   gotoxy (2,20); WriteLn (' D : Como dizia o pai de um filho burro:"Ã€s vezes tenho que concordar em que meu filho nÃ£o'); 
+		   gotoxy (2,21); WriteLn ('atingiu o Ã­ndice normal de aproveitamento para meninos de sua idade".');    
+		   gotoxy (2,22); WriteLn (' E : Algumas araras azuis, do alto de uma Ã¡rvore, trocavam opiniÃµes sobre o amanhecer.');
+		   gotoxy (2,23); WriteLn ('OpÃ§Ã£o escolhida -> [ ]');
 		   gotoxy (22,23); readln (opcao1);
 	     opcao1 := Upcase (opcao1);
 		   IF (opcao1 = 'B') then
@@ -120,15 +123,15 @@ sexor :gotoxy (20,11); WriteLn ('Escolha a opcao -> [ ]');
 		   
       //========================================================================== pergunta 2
 		    
-		   gotoxy (3,14); textcolor(yellow); writeln('QUESTÃO 2 --> ');
-       gotoxy (2,16);  WriteLn ('2 - ) Em relação as figuras de linguagem. Marque a alternativa que indica uma comparação : ');
-       gotoxy (2,17);  WriteLn (' A : Na lama lisa da margem, borboletas amarelas pousavam, imóveis, como pétalas num chão de festa.');
+		   gotoxy (3,14); textcolor(yellow); writeln('QUESTÃƒO 2 --> ');
+       gotoxy (2,16);  WriteLn ('2 - ) Em relaÃ§Ã£o as figuras de linguagem. Marque a alternativa que indica uma comparaÃ§Ã£o : ');
+       gotoxy (2,17);  WriteLn (' A : Na lama lisa da margem, borboletas amarelas pousavam, imÃ³veis, como pÃ©talas num chÃ£o de festa.');
        gotoxy (2,18);  WriteLn (' B : Estou com fome acho que comeria um cavalo.'); 
 		   gotoxy (2,19);  WriteLn (' C : A incerteza de tudo, na certeza de nada.');    
-       gotoxy (2,20);  WriteLn (' D : Como dizia o pai de um filho burro:"Às vezes tenho que concordar em que meu filho não'); 
-		   gotoxy (2,21);  WriteLn ('atingiu o índice normal de aproveitamento para meninos de sua idade".');    
-		   gotoxy (2,22);  WriteLn (' E : Algumas araras azuis, do alto de uma árvore, trocavam opiniões sobre o amanhecer.');
-		   gotoxy (2,23);  WriteLn ('Opção escolhida -> [ ]');
+       gotoxy (2,20);  WriteLn (' D : Como dizia o pai de um filho burro:"Ã€s vezes tenho que concordar em que meu filho nÃ£o'); 
+		   gotoxy (2,21);  WriteLn ('atingiu o Ã­ndice normal de aproveitamento para meninos de sua idade".');    
+		   gotoxy (2,22);  WriteLn (' E : Algumas araras azuis, do alto de uma Ã¡rvore, trocavam opiniÃµes sobre o amanhecer.');
+		   gotoxy (2,23);  WriteLn ('OpÃ§Ã£o escolhida -> [ ]');
 		   gotoxy (22,23); readln  (opcao2);
 		   opcao2 := Upcase (opcao2);
 		   IF (opcao2 = 'A') then
@@ -144,14 +147,14 @@ sexor :gotoxy (20,11); WriteLn ('Escolha a opcao -> [ ]');
 		    
 		  //===================================================================================== pergunta 3
     
-       gotoxy (3,14);  textcolor (yellow); WriteLn ('QUESTÃO 3 --> ');
-       gotoxy (2,16);  WriteLn ('3 - ) Quais das seguintes alternativas apresenta o sinônimo da palavra "bonito"?: ');
+       gotoxy (3,14);  textcolor (yellow); WriteLn ('QUESTÃƒO 3 --> ');
+       gotoxy (2,16);  WriteLn ('3 - ) Quais das seguintes alternativas apresenta o sinÃ´nimo da palavra "bonito"?: ');
        gotoxy (2,17);  WriteLn (' A : Feio .');
        gotoxy (2,18);  WriteLn (' B : Estranho .'); 
 		   gotoxy (2,19);  WriteLn (' C : Legal.');    
-       gotoxy (2,20);  WriteLn (' D : Horrível'); 
+       gotoxy (2,20);  WriteLn (' D : HorrÃ­vel'); 
 		   gotoxy (2,21);  WriteLn (' E : Lindo.');
-		   gotoxy (2,22);  WriteLn ('Opção escolhida -> [ ]');
+		   gotoxy (2,22);  WriteLn ('OpÃ§Ã£o escolhida -> [ ]');
 		   gotoxy (22,22); readln  (opcao3);
 		   opcao3 := Upcase (opcao3);
 		   if (opcao3 = 'E') then
@@ -167,14 +170,14 @@ sexor :gotoxy (20,11); WriteLn ('Escolha a opcao -> [ ]');
 		    
 		    //====================================================================================== pergunta 4
 		    
-		   gotoxy (3,14);  textcolor(yellow); WriteLn('QUESTÃO 4 --> ');
-       gotoxy (2,16);  WriteLn ('4 - ) Quais das seguintes alternativas apresenta o antônimo da palavra "Agitado"? ');
+		   gotoxy (3,14);  textcolor(yellow); WriteLn('QUESTÃƒO 4 --> ');
+       gotoxy (2,16);  WriteLn ('4 - ) Quais das seguintes alternativas apresenta o antÃ´nimo da palavra "Agitado"? ');
        gotoxy (2,17);  WriteLn (' A : Afobado .');
        gotoxy (2,18);  WriteLn (' B : Tranquilo .'); 
 		   gotoxy (2,19);  WriteLn (' C : Legal.');    
-       gotoxy (2,20);  WriteLn (' D : Horrível'); 
+       gotoxy (2,20);  WriteLn (' D : HorrÃ­vel'); 
 		   gotoxy (2,21);  WriteLn (' E : Cansado.');
-		   gotoxy (2,22);  WriteLn ('Opção escolhida -> [ ]');
+		   gotoxy (2,22);  WriteLn ('OpÃ§Ã£o escolhida -> [ ]');
 		   gotoxy (22,22); readln  (opcao4);
 		   opcao4 := Upcase (opcao4);
 		   if (opcao4 = 'B') then
@@ -190,14 +193,14 @@ sexor :gotoxy (20,11); WriteLn ('Escolha a opcao -> [ ]');
 		    
 	    //========================================================================================= pergunta 5
 		    
-		   gotoxy (3,14);  textcolor (yellow); WriteLn ('QUESTÃO 5 --> ');
-       gotoxy (2,16);  WriteLn ('5 - ) Identifique o sujeito na seguinte frase: "João e Maria gostam de pirulitos." ');
+		   gotoxy (3,14);  textcolor (yellow); WriteLn ('QUESTÃƒO 5 --> ');
+       gotoxy (2,16);  WriteLn ('5 - ) Identifique o sujeito na seguinte frase: "JoÃ£o e Maria gostam de pirulitos." ');
        gotoxy (2,17);  WriteLn (' A : Sujeito Simples .');
        gotoxy (2,18);  WriteLn (' B : Sujeito Composto .'); 
 		   gotoxy (2,19);  WriteLn (' C : Sujeito Oculto .');    
        gotoxy (2,20);  WriteLn (' D : Sujeito Indeterminado'); 
 		   gotoxy (2,21);  WriteLn (' E : Nenhum dos anteriores.');
-		   gotoxy (2,22);  WriteLn ('Opção escolhida -> [ ]');
+		   gotoxy (2,22);  WriteLn ('OpÃ§Ã£o escolhida -> [ ]');
 		   gotoxy (22,22); readln  (opcao5);
 		   opcao5 := Upcase (opcao5);
 		   if (opcao5 = 'B') then
@@ -213,14 +216,14 @@ sexor :gotoxy (20,11); WriteLn ('Escolha a opcao -> [ ]');
 		    
 		    //========================================================================================= questao 6
 		      
-		   gotoxy (3,14);  textcolor (yellow); WriteLn ('QUESTÃO 6 --> ');
+		   gotoxy (3,14);  textcolor (yellow); WriteLn ('QUESTÃƒO 6 --> ');
        gotoxy (2,16);  WriteLn ('6 - ) Identifique o sujeito na seguinte frase: "Gosto muito de bolo de chocolate!"');
        gotoxy (2,17);  WriteLn (' A : Sujeito Simples .');
        gotoxy (2,18);  WriteLn (' B : Sujeito Composto .'); 
 		   gotoxy (2,19);  WriteLn (' C : Sujeito Oculto .');    
        gotoxy (2,20);  WriteLn (' D : Sujeito Indeterminado'); 
 		   gotoxy (2,21);  WriteLn (' E : Nenhum dos anteriores.');
-		   gotoxy (2,22);  WriteLn ('Opção escolhida -> [ ]');
+		   gotoxy (2,22);  WriteLn ('OpÃ§Ã£o escolhida -> [ ]');
 		   gotoxy (22,22); readln  (opcao6);
 		   opcao6 := Upcase (opcao6);
 		    if (opcao6 = 'C') then
@@ -236,14 +239,14 @@ sexor :gotoxy (20,11); WriteLn ('Escolha a opcao -> [ ]');
 		    
 		    // ======================================================================================== pergunta 7
 		    	       
-		   gotoxy (3,14);  textcolor (yellow); WriteLn ('QUESTÃO 7 --> ');
-       gotoxy (2,16);  WriteLn ('7 - ) Passando a frase "Se Luíza via alguém, por que ela não disse nada?" para o pretérito imperfeito do subjuntivo, temos:');
-       gotoxy (2,17);  WriteLn (' A : Se Luíza visse alguém, ela teria dito? .');
-       gotoxy (2,18);  WriteLn (' B : Se Luíza vira alguém, por que não disse nada?.'); 
-		   gotoxy (2,19);  WriteLn (' C : Quando Luíza ver alguém, ela vai dizer? .');    
-       gotoxy (2,20);  WriteLn (' D : Se Luíza ver alguém, ela vai dizer?'); 
-		   gotoxy (2,21);  WriteLn (' E : Luíza vai dizer se ver alguém..');
-		   gotoxy (2,22);  WriteLn ('Opção escolhida -> [ ]');
+		   gotoxy (3,14);  textcolor (yellow); WriteLn ('QUESTÃƒO 7 --> ');
+       gotoxy (2,16);  WriteLn ('7 - ) Passando a frase "Se LuÃ­za via alguÃ©m, por que ela nÃ£o disse nada?" para o pretÃ©rito imperfeito do subjuntivo, temos:');
+       gotoxy (2,17);  WriteLn (' A : Se LuÃ­za visse alguÃ©m, ela teria dito? .');
+       gotoxy (2,18);  WriteLn (' B : Se LuÃ­za vira alguÃ©m, por que nÃ£o disse nada?.'); 
+		   gotoxy (2,19);  WriteLn (' C : Quando LuÃ­za ver alguÃ©m, ela vai dizer? .');    
+       gotoxy (2,20);  WriteLn (' D : Se LuÃ­za ver alguÃ©m, ela vai dizer?'); 
+		   gotoxy (2,21);  WriteLn (' E : LuÃ­za vai dizer se ver alguÃ©m..');
+		   gotoxy (2,22);  WriteLn ('OpÃ§Ã£o escolhida -> [ ]');
 		   gotoxy (22,22); readln  (opcao7);
 		   opcao7 := Upcase (opcao7);
 		   if (opcao7 = 'A') then
@@ -259,14 +262,14 @@ sexor :gotoxy (20,11); WriteLn ('Escolha a opcao -> [ ]');
 		    
 		   //=================================================================================== questao 8
 		    
-		   gotoxy (3,14);  textcolor (yellow); WriteLn ('QUESTÃO 8 --> ');
-       gotoxy (2,16);  WriteLn ('8 - ) Qual das frases está no pretérito imperfeito do subjuntivo?');
+		   gotoxy (3,14);  textcolor (yellow); WriteLn ('QUESTÃƒO 8 --> ');
+       gotoxy (2,16);  WriteLn ('8 - ) Qual das frases estÃ¡ no pretÃ©rito imperfeito do subjuntivo?');
        gotoxy (2,17);  WriteLn (' A : Ela vai com a gente para o parque. .');
        gotoxy (2,18);  WriteLn (' B : Quando ela for com a gente para o parque..'); 
 		   gotoxy (2,19);  WriteLn (' C : Se ela fosse com a gente para o parque. .');    
        gotoxy (2,20);  WriteLn (' D : Ela foi com a gente para o parque.'); 
 		   gotoxy (2,21);  WriteLn (' E : Quando ela foi com a gente para o parque.');
-		   gotoxy (2,22);  WriteLn ('Opção escolhida -> [ ]');
+		   gotoxy (2,22);  WriteLn ('OpÃ§Ã£o escolhida -> [ ]');
 		   gotoxy (22,22); readln  (opcao8);
 		   opcao8 := Upcase (opcao8);
 		   if (opcao8 = 'C') then
@@ -282,14 +285,14 @@ sexor :gotoxy (20,11); WriteLn ('Escolha a opcao -> [ ]');
 		    
 		    //======================================================================================= questao 9
 		    
-		   gotoxy (3,14);  textcolor (yellow); WriteLn ('QUESTÃO 9 --> ');
-       gotoxy (2,16);  WriteLn ('9 - ) "Vem cochichar baixinho no meu ouvido. A figura de linguagem exposta oração é: ');
+		   gotoxy (3,14);  textcolor (yellow); WriteLn ('QUESTÃƒO 9 --> ');
+       gotoxy (2,16);  WriteLn ('9 - ) "Vem cochichar baixinho no meu ouvido. A figura de linguagem exposta oraÃ§Ã£o Ã©: ');
        gotoxy (2,17);  WriteLn (' A : Pleonasmo .');
-       gotoxy (2,18);  WriteLn (' B : Antonomásia .'); 
-		   gotoxy (2,19);  WriteLn (' C : Metáfora.');    
+       gotoxy (2,18);  WriteLn (' B : AntonomÃ¡sia .'); 
+		   gotoxy (2,19);  WriteLn (' C : MetÃ¡fora.');    
        gotoxy (2,20);  WriteLn (' D : Alegoria.'); 
 		   gotoxy (2,21);  WriteLn (' E : Zeugma.');
-		   gotoxy (2,22);  WriteLn ('Opção escolhida -> [ ]');
+		   gotoxy (2,22);  WriteLn ('OpÃ§Ã£o escolhida -> [ ]');
 		   gotoxy (22,22); readln  (opcao9);
 		   opcao9 := Upcase (opcao9);
 		   if (opcao9 = 'A') then
@@ -305,14 +308,14 @@ sexor :gotoxy (20,11); WriteLn ('Escolha a opcao -> [ ]');
 		    
 		    //======================================================================================= pergunta 10 
 		    
-		   gotoxy (3,14);  textcolor (yellow); WriteLn ('QUESTÃO 10 --> ');
-       gotoxy (2,16);  WriteLn ('10 - ) "Há muitos anos atrás, fiz algo muito errado". A alternativa que apresenta a figura de linguagem usada e: ');
-       gotoxy (2,17);  WriteLn (' A : Hipérbato.');
-       gotoxy (2,18);  WriteLn (' B : Perífrase.'); 
-		   gotoxy (2,19);  WriteLn (' C : Apóstrofe.');    
-       gotoxy (2,20);  WriteLn (' D : Antítese.'); 
+		   gotoxy (3,14);  textcolor (yellow); WriteLn ('QUESTÃƒO 10 --> ');
+       gotoxy (2,16);  WriteLn ('10 - ) "HÃ¡ muitos anos atrÃ¡s, fiz algo muito errado". A alternativa que apresenta a figura de linguagem usada e: ');
+       gotoxy (2,17);  WriteLn (' A : HipÃ©rbato.');
+       gotoxy (2,18);  WriteLn (' B : PerÃ­frase.'); 
+		   gotoxy (2,19);  WriteLn (' C : ApÃ³strofe.');    
+       gotoxy (2,20);  WriteLn (' D : AntÃ­tese.'); 
 		   gotoxy (2,21);  WriteLn (' E : Pleonasmo.');
-		   gotoxy (2,22);  WriteLn ('Opção escolhida -> [ ]');
+		   gotoxy (2,22);  WriteLn ('OpÃ§Ã£o escolhida -> [ ]');
 		   gotoxy (22,22); readln  (opcao10);
 		   opcao10 := Upcase (opcao10);
 		   IF (opcao10 = 'E') then
@@ -330,14 +333,14 @@ sexor :gotoxy (20,11); WriteLn ('Escolha a opcao -> [ ]');
 		    
 		   //=============================================================================================== pergunta 11
 		    
-		   gotoxy (3,14);  textcolor (yellow); writeln ('QUESTÃO 11 --> ');
+		   gotoxy (3,14);  textcolor (yellow); writeln ('QUESTÃƒO 11 --> ');
        gotoxy (2,16);  WriteLn ('11 - ) Qual a escrita correta? ');
        gotoxy (2,17);  WriteLn (' A : mussarela.');
        gotoxy (2,18);  WriteLn (' B : mutsarela.'); 
-		   gotoxy (2,19);  WriteLn (' C : muçarela.');    
+		   gotoxy (2,19);  WriteLn (' C : muÃ§arela.');    
        gotoxy (2,20);  WriteLn (' D : mossarela.'); 
-		   gotoxy (2,21);  WriteLn (' E : Nenhuma das opções.');
-		   gotoxy (2,22);  WriteLn ('Opção escolhida -> [ ]');
+		   gotoxy (2,21);  WriteLn (' E : Nenhuma das opÃ§Ãµes.');
+		   gotoxy (2,22);  WriteLn ('OpÃ§Ã£o escolhida -> [ ]');
 		   gotoxy (22,22); readln  (opcao11);
 		   opcao11 := Upcase (opcao11);  
 		   if (opcao11 = 'C') then
@@ -354,14 +357,14 @@ sexor :gotoxy (20,11); WriteLn ('Escolha a opcao -> [ ]');
 		    
 		    //================================================================================================ pergunta 12
 		    
-		   gotoxy (3,14);  textcolor(yellow); WriteLn ('QUESTÃO 12 --> ');
+		   gotoxy (3,14);  textcolor(yellow); WriteLn ('QUESTÃƒO 12 --> ');
        gotoxy (2,16);  WriteLn ('12 - ) Qual a escrita correta? ');
        gotoxy (2,17);  WriteLn (' A : celebro .');
        gotoxy (2,18);  WriteLn (' B : cerebro .'); 
 		   gotoxy (2,19);  WriteLn (' C : selebro.');    
-       gotoxy (2,20);  WriteLn (' D : sélebro.'); 
-		   gotoxy (2,21);  WriteLn (' E : cérebro.');
-		   gotoxy (2,22);  WriteLn ('Opção escolhida -> [ ]');
+       gotoxy (2,20);  WriteLn (' D : sÃ©lebro.'); 
+		   gotoxy (2,21);  WriteLn (' E : cÃ©rebro.');
+		   gotoxy (2,22);  WriteLn ('OpÃ§Ã£o escolhida -> [ ]');
 		   gotoxy (22,22); readln (opcao12);
 		   opcao12 := Upcase (opcao12);
 		   if (opcao12 = 'E') then
@@ -376,14 +379,14 @@ sexor :gotoxy (20,11); WriteLn ('Escolha a opcao -> [ ]');
 		   resete;
 		//================================================================================================= pergunta 13 
 		
-		   gotoxy (3,14);  textcolor (yellow); WriteLn ('QUESTÃO 13 --> ');
+		   gotoxy (3,14);  textcolor (yellow); WriteLn ('QUESTÃƒO 13 --> ');
        gotoxy (2,16);  WriteLn ('13 - ) Qual a escrita correta? ');
-       gotoxy (2,17);  WriteLn (' A : açougue .');
+       gotoxy (2,17);  WriteLn (' A : aÃ§ougue .');
        gotoxy (2,18);  WriteLn (' B : asolgue.'); 
 		   gotoxy (2,19);  WriteLn (' C : assougue.');    
-       gotoxy (2,20);  WriteLn (' D : açogue.'); 
-		   gotoxy (2,21);  WriteLn (' E : açolgue.');
-		   gotoxy (2,22);  WriteLn ('Opção escolhida -> [ ]');
+       gotoxy (2,20);  WriteLn (' D : aÃ§ogue.'); 
+		   gotoxy (2,21);  WriteLn (' E : aÃ§olgue.');
+		   gotoxy (2,22);  WriteLn ('OpÃ§Ã£o escolhida -> [ ]');
 		   gotoxy (22,22); readln  (opcao13);
 		   opcao13 := Upcase (opcao13);
 		    if (opcao13 = 'A') then
@@ -399,14 +402,14 @@ sexor :gotoxy (20,11); WriteLn ('Escolha a opcao -> [ ]');
 		    
 		    //===============================================================================================  pergunta 14
 		    
-		   gotoxy (3,14);  textcolor (yellow); WriteLn ('QUESTÃO 14 --> ');
-       gotoxy (2,16);  WriteLn ('14 - ) O que é ósculo? ');
-       gotoxy (2,17);  WriteLn (' A : Preguiça.');
-       gotoxy (2,18);  WriteLn (' B : Equipamento parecido com o óculos, porém com uma lente só..'); 
+		   gotoxy (3,14);  textcolor (yellow); WriteLn ('QUESTÃƒO 14 --> ');
+       gotoxy (2,16);  WriteLn ('14 - ) O que Ã© Ã³sculo? ');
+       gotoxy (2,17);  WriteLn (' A : PreguiÃ§a.');
+       gotoxy (2,18);  WriteLn (' B : Equipamento parecido com o Ã³culos, porÃ©m com uma lente sÃ³..'); 
 		   gotoxy (2,19);  WriteLn (' C : Rapidez no pensamento.');    
        gotoxy (2,20);  WriteLn (' D : Beijo. '); 
 		   gotoxy (2,21);  WriteLn (' E : Morte.');
-		   gotoxy (2,22);  WriteLn ('Opção escolhida -> [  ]');
+		   gotoxy (2,22);  WriteLn ('OpÃ§Ã£o escolhida -> [  ]');
 		   gotoxy (22,22); readln  (opcao14);
 		   opcao14 := Upcase (opcao14);
 		   if (opcao14 = 'D') then
@@ -422,14 +425,14 @@ sexor :gotoxy (20,11); WriteLn ('Escolha a opcao -> [ ]');
 		    
 		    //======================================================================================= pergunta  15
 		    
-		   gotoxy (3,14);  textcolor (yellow); writeln ('QUESTÃO 15 --> ');
-       gotoxy (2,16);  writeln ('15 - ) Se uma pessoa está rubicunda, ela está? ');
+		   gotoxy (3,14);  textcolor (yellow); writeln ('QUESTÃƒO 15 --> ');
+       gotoxy (2,16);  writeln ('15 - ) Se uma pessoa estÃ¡ rubicunda, ela estÃ¡? ');
        gotoxy (2,17);  writeln (' A : Desarrumada .');
        gotoxy (2,18);  writeln (' B : Avermelhada.'); 
 		   gotoxy (2,19);  writeln (' C : Despenteada.');    
        gotoxy (2,20);  writeln (' D : Feia.'); 
 		   gotoxy (2,21);  writeln (' E : Falecida.');
-		   gotoxy (2,22);  writeln ('Opção escolhida -> [ ]');
+		   gotoxy (2,22);  writeln ('OpÃ§Ã£o escolhida -> [ ]');
 		   gotoxy (22,22); readln  (opcao15);
 		   opcao15 := Upcase (opcao15);                
 		   if (opcao15 = 'B') then
@@ -445,14 +448,14 @@ sexor :gotoxy (20,11); WriteLn ('Escolha a opcao -> [ ]');
 		    
 		    //================================================================================ pergunta 16
 		    
-		   gotoxy (3,14);  textcolor(yellow); WriteLn ('QUESTÃO 16 --> ');
-       gotoxy (2,16);  WriteLn ('16 - )Se uma pessoa é célere, quer dizer que ela é? ');
+		   gotoxy (3,14);  textcolor(yellow); WriteLn ('QUESTÃƒO 16 --> ');
+       gotoxy (2,16);  WriteLn ('16 - )Se uma pessoa Ã© cÃ©lere, quer dizer que ela Ã©? ');
        gotoxy (2,17);  WriteLn (' A : Veloz.');
        gotoxy (2,18);  WriteLn (' B : Chata demais.'); 
 		   gotoxy (2,19);  WriteLn (' C : Doente.');    
        gotoxy (2,20);  WriteLn (' D : Traumatizada.'); 
 		   gotoxy (2,21);  WriteLn (' E : Infeliz.');
-		   gotoxy (2,22);  WriteLn ('Opção escolhida -> [ ]');
+		   gotoxy (2,22);  WriteLn ('OpÃ§Ã£o escolhida -> [ ]');
 		   gotoxy (22,22); readln (opcao16);
 		   opcao16 := Upcase (opcao16);
 		   if (opcao16 = 'A') then
@@ -468,14 +471,14 @@ sexor :gotoxy (20,11); WriteLn ('Escolha a opcao -> [ ]');
 		    
 		    //======================================================================================= pergunta 17
 		    
-		   gotoxy (3,14);  textcolor (yellow); WriteLn ('QUESTÃO 17 --> ');
-       gotoxy (2,16);  WriteLn ('17 - )Se algo é inócuo, quer dizer que é?');
+		   gotoxy (3,14);  textcolor (yellow); WriteLn ('QUESTÃƒO 17 --> ');
+       gotoxy (2,16);  WriteLn ('17 - )Se algo Ã© inÃ³cuo, quer dizer que Ã©?');
        gotoxy (2,17);  WriteLn (' A : Valioso.');
        gotoxy (2,18);  WriteLn (' B : Inofensivo.'); 
 		   gotoxy (2,19);  WriteLn (' C : Verdadeiro.');    
        gotoxy (2,20);  WriteLn (' D : Mentiroso.'); 
-		   gotoxy (2,21);  WriteLn (' E : Algo quebrável com facilidade.');
-		   gotoxy (2,22);  WriteLn ('Opção escolhida -> [ ]');
+		   gotoxy (2,21);  WriteLn (' E : Algo quebrÃ¡vel com facilidade.');
+		   gotoxy (2,22);  WriteLn ('OpÃ§Ã£o escolhida -> [ ]');
 		   gotoxy (22,22); readln  (opcao17);
 		   opcao17 := Upcase (opcao17);
 		   if (opcao17 = 'B') then
@@ -491,14 +494,14 @@ sexor :gotoxy (20,11); WriteLn ('Escolha a opcao -> [ ]');
 		    
 		    //========================================================================================== pergunta 18
 		    
-		   gotoxy (3,14);  textcolor (yellow); WriteLn ('QUESTÃO 18 --> ');
-       gotoxy (2,16);  WriteLn ('18 - )Com o novo acordo ortográfico, algumas paroxítonas perdem o acento agudo. Assinale a pronuncia correta');
-       gotoxy (2,17);  WriteLn (' A : Maracujá.');
-       gotoxy (2,18);  WriteLn (' B : Vívivo.'); 
+		   gotoxy (3,14);  textcolor (yellow); WriteLn ('QUESTÃƒO 18 --> ');
+       gotoxy (2,16);  WriteLn ('18 - )Com o novo acordo ortogrÃ¡fico, algumas paroxÃ­tonas perdem o acento agudo. Assinale a pronuncia correta');
+       gotoxy (2,17);  WriteLn (' A : MaracujÃ¡.');
+       gotoxy (2,18);  WriteLn (' B : VÃ­vivo.'); 
 		   gotoxy (2,19);  WriteLn (' C : Meia.');    
        gotoxy (2,20);  WriteLn (' D : Plateia.'); 
-		   gotoxy (2,21);  WriteLn (' E : Áspero.');
-		   gotoxy (2,22);  WriteLn ('Opção escolhida -> [ ]');
+		   gotoxy (2,21);  WriteLn (' E : Ãspero.');
+		   gotoxy (2,22);  WriteLn ('OpÃ§Ã£o escolhida -> [ ]');
 		   gotoxy (22,22); readln (opcao18);              
 		   opcao18 := Upcase (opcao18);
 	     if (opcao18 = 'D') then
@@ -514,14 +517,14 @@ sexor :gotoxy (20,11); WriteLn ('Escolha a opcao -> [ ]');
 		    
 		    //============================================================================================= pergunta 19
 		    
-		   gotoxy (3,14);  textcolor (yellow); WriteLn ('QUESTÃO 19 --> ');
-       gotoxy (2,16);  WriteLn ('19 - )Marque a alternativa INCORRETA quanto ao emprego do circunflexo das palavras nos períodos a seguir:');
-       gotoxy (2,17);  WriteLn (' A : Troco tanto de casa, que me chamaram de nômade..');
-       gotoxy (2,18);  WriteLn (' B : A viagem de ontem me deixou com enjoo, por isso talvez eu não vá trabalhar hoje..'); 
-		   gotoxy (2,19);  WriteLn (' C : As palavras amar e odiar são antônimas..');    
-       gotoxy (2,20);  WriteLn (' D : Eles crêem que são provenientes de um universo desconhecido.'); 
-       gotoxy (2,21);  WriteLn (' E : O apêndice daquele livro estava mal escrito .');
-		   gotoxy (2,22);  WriteLn ('Opção escolhida -> [ ]');
+		   gotoxy (3,14);  textcolor (yellow); WriteLn ('QUESTÃƒO 19 --> ');
+       gotoxy (2,16);  WriteLn ('19 - )Marque a alternativa INCORRETA quanto ao emprego do circunflexo das palavras nos perÃ­odos a seguir:');
+       gotoxy (2,17);  WriteLn (' A : Troco tanto de casa, que me chamaram de nÃ´made..');
+       gotoxy (2,18);  WriteLn (' B : A viagem de ontem me deixou com enjoo, por isso talvez eu nÃ£o vÃ¡ trabalhar hoje..'); 
+		   gotoxy (2,19);  WriteLn (' C : As palavras amar e odiar sÃ£o antÃ´nimas..');    
+       gotoxy (2,20);  WriteLn (' D : Eles crÃªem que sÃ£o provenientes de um universo desconhecido.'); 
+       gotoxy (2,21);  WriteLn (' E : O apÃªndice daquele livro estava mal escrito .');
+		   gotoxy (2,22);  WriteLn ('OpÃ§Ã£o escolhida -> [ ]');
 		   gotoxy (22,22); readln  (opcao19);
 		   opcao19 := Upcase (opcao19);
 		   if (opcao19 = 'D') then
@@ -537,14 +540,14 @@ sexor :gotoxy (20,11); WriteLn ('Escolha a opcao -> [ ]');
 		    
 		    //====================================================================================== pergunta 20
 		    
-		   gotoxy (3,14);  textcolor (yellow); WriteLn ('QUESTÃO 20 --> ');
-       gotoxy (2,16);  WriteLn ('20 - ) Quanto à colocação da crase, marque a alternativa ERRADA:');
-       gotoxy (2,17);  WriteLn (' A : Vou à Praia Grande daqui a quinze dias.');
-       gotoxy (2,18);  WriteLn (' B : A professora pediu para que fizéssemos os exercícios em uma folha à parte.'); 
-		   gotoxy (2,19);  WriteLn (' C : À medida que o tempo passa, mudamos de ideia.');    
-       gotoxy (2,20);  WriteLn (' D : Estou à meia hora aguardando ser chamada.'); 
+		   gotoxy (3,14);  textcolor (yellow); WriteLn ('QUESTÃƒO 20 --> ');
+       gotoxy (2,16);  WriteLn ('20 - ) Quanto Ã  colocaÃ§Ã£o da crase, marque a alternativa ERRADA:');
+       gotoxy (2,17);  WriteLn (' A : Vou Ã  Praia Grande daqui a quinze dias.');
+       gotoxy (2,18);  WriteLn (' B : A professora pediu para que fizÃ©ssemos os exercÃ­cios em uma folha Ã  parte.'); 
+		   gotoxy (2,19);  WriteLn (' C : Ã€ medida que o tempo passa, mudamos de ideia.');    
+       gotoxy (2,20);  WriteLn (' D : Estou Ã  meia hora aguardando ser chamada.'); 
        gotoxy (2,21);  WriteLn (' E : N.D.A.');
-		   gotoxy (2,22);  WriteLn ('Opção escolhida -> [ ]');
+		   gotoxy (2,22);  WriteLn ('OpÃ§Ã£o escolhida -> [ ]');
 		   gotoxy (22,22); readln  (opcao20);
 		   opcao20 := Upcase (opcao20);
 		   if (opcao20 = 'D') then
